@@ -10,7 +10,7 @@ This is a personal **profile card** built using only **HTML** and **CSS**.
 - Creating a centered layout
 
 ### 🚀 Deployed on:
-[Vercel](https://vercel.com/) (Live link)
+[Vercel](https://profilecard-one-blue.vercel.app/) (Live link)
 
 ### 🔗 Connect with me:
 - [LinkedIn](https://www.linkedin.com/in/thamotharanatarajan/)
