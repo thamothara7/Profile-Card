@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+/* https://grabient.com/HQZgnAjANMAMEDYawOxNGdAWWIYgFZYYAmCADlJWOArxFoWgjlkpdgRSmI9hvLluAWlhwSIIA/HQZgnAjANMAMEDYawOxNGdAWWIYgFZYYAmCADlJWOArxFoWgjlkpdgRSmI9hvLluAWlhwSIIA/?style=angularGradient&steps=34&angle=315&tags=%5B%22Beach%22%2C%22Christmas%22%2C%22Autumn%22%5D */
+
+background: conic-gradient(from 315deg, rgba(165, 106, 105, 1.000) 0.000deg, rgba(162, 107, 104, 1.000) 10.909deg, rgba(159, 107, 104, 1.000) 21.818deg, rgba(156, 107, 103, 1.000) 32.727deg, rgba(153, 106, 102, 1.000) 43.636deg, rgba(150, 106, 100, 1.000) 54.545deg, rgba(147, 105, 99, 1.000) 65.455deg, rgba(143, 104, 98, 1.000) 76.364deg, rgba(140, 103, 97, 1.000) 87.273deg, rgba(136, 102, 95, 1.000) 98.182deg, rgba(133, 100, 94, 1.000) 109.091deg, rgba(129, 98, 92, 1.000) 120.000deg, rgba(126, 96, 91, 1.000) 130.909deg, rgba(122, 94, 89, 1.000) 141.818deg, rgba(119, 92, 87, 1.000) 152.727deg, rgba(115, 89, 85, 1.000) 163.636deg, rgba(111, 87, 83, 1.000) 174.545deg, rgba(108, 84, 81, 1.000) 185.455deg, rgba(104, 81, 79, 1.000) 196.364deg, rgba(100, 78, 77, 1.000) 207.273deg, rgba(96, 74, 75, 1.000) 218.182deg, rgba(93, 71, 73, 1.000) 229.091deg, rgba(89, 67, 71, 1.000) 240.000deg, rgba(85, 63, 69, 1.000) 250.909deg, rgba(82, 60, 66, 1.000) 261.818deg, rgba(78, 56, 64, 1.000) 272.727deg, rgba(74, 51, 61, 1.000) 283.636deg, rgba(71, 47, 59, 1.000) 294.545deg, rgba(67, 43, 57, 1.000) 305.455deg, rgba(64, 39, 54, 1.000) 316.364deg, rgba(60, 34, 51, 1.000) 327.273deg, rgba(57, 30, 49, 1.000) 338.182deg, rgba(54, 25, 46, 1.000) 349.091deg, rgba(50, 20, 44, 1.000) 360.000deg);    margin: 25px;
+    padding-bottom: 100px;
+
+
+}
+
+.box {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 800px;
+    background-color: rgb(203, 185, 182);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 20px 20px 30px rgba(153, 107, 101, 0.868);
+    /* #402519 */
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: rgba(165, 106, 105, 1.000);
+}
+
+.pro {
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    padding: 15px;
+    text-align: center;
+    color: rgba(50, 20, 44, 1.000);
+
+}
+
+.name {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    padding: 15px;
+    margin-top: 5px;
+    text-align: center;
+    color: rgba(50, 20, 44, 1.000);
+}
+
+.card p {
+    max-width: 800px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(50, 20, 44, 1.000);
+    font-family: "Cinzel", serif;
+
+}
+
+.card ul {
+    color: rgba(50, 20, 44, 1.000);
+    list-style: none;
+    padding: 15px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.link a {
+    color: rgba(50, 20, 44, 1.000);
+    padding: 10px;
+    padding: 20px;
+
+
+}
+
+.link {
+    margin-top: 12px;
+    align-items: center;
+
+
+}
+
+h5 {
+    padding-top: 20px;
+    font-weight: 5;
+    font-size: 7px;
+    color: rgba(50, 20, 44, 1.000);
+    cursor: pointer;
+}
+
+a:hover {
+    color: #444754;
+}
